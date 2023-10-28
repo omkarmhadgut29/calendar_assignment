@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+select,
+input[type="number"] {
+    padding: 5px;
+}
+
+.labelContainer {
+    display: flex;
+}
+
+.labelContainer>* {
+    margin-left: 8px;
+}
+
+.calendar {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.calendar table {
+    width: 100%;
+}
+
+.calendar th,
+.calendar td {
+    width: 14.28%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.green-bg {
+    background-color: green;
+}
