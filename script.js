@@ -29,7 +29,7 @@ function updateCalendar() {
 }
 
 function generateCalendar(date) {
-    const firstDay = new Date(date.getFullYear(), date.getMonth(), 3);
+    const firstDay = new Date(date.getFullYear(), date.getMonth(), 1);
     const lastDay = new Date(date.getFullYear(), date.getMonth() + 1, 0);
 
     calendarBody.innerHTML = "";
